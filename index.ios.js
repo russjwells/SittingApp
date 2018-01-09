@@ -38,7 +38,7 @@ export default class SittingApp extends Component {
           <Image source={require('./app/img/sittingtitle.png')} />
         </View>
       </View>
-      <MeditationView appState="Beginning" defaultMinutes={20} defaultSeconds={0}/>
+      <MeditationView appState="Beginning" defaultMinutes={0} defaultSeconds={2}/>
       </View>
     );
   }

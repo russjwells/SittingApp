@@ -23,6 +23,7 @@ var singingbowlring = new Sound('singingbowlring.wav', Sound.MAIN_BUNDLE, (error
   }
 });
 
+
 let tminutes
 let tseconds
 
@@ -66,9 +67,11 @@ class MeditationView extends Component {
         console.log('playback failed due to audio decoding errors');
       }
     });
+    
     this.setState({appState: "Finished"});
   }
   halfway() {
+    /*
     singingbowlring.play((success) => {
       if (success) {
         console.log('successfully finished playing');
@@ -76,6 +79,7 @@ class MeditationView extends Component {
         console.log('playback failed due to audio decoding errors');
       }
     });
+    */
     Alert.alert("Halfway!")
   }
   _onPressTime(){
