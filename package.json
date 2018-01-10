@@ -10,7 +10,7 @@
     "react": "15.4.1",
     "react-native": "0.39.0",
     "react-native-drawer": "^2.3.0",
-    "react-native-keep-awake": "^1.0.7",
+    "react-native-keep-awake": "1.0.7",
     "react-native-sound": "^0.8.3"
   },
   "devDependencies": {
